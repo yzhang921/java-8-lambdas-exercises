@@ -12,7 +12,6 @@ import static java.util.stream.Collectors.toList;
 
 public class Question1 {
     public static int addUp(Stream<Integer> numbers) {
-
         return numbers.reduce(0, (acc, element) -> acc + element);
     }
 
